@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #d3dcd6;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+  
+}
+.navbar{
+    justify-content: space-between;
+    margin: 1rem 8rem;
+}
+.navbar>img{
+    height: 2.5rem;
+}
+.menu{
+    gap: 4rem;
+}
+.menu>a>li{
+    font-weight: 600;
+}
+.hero{
+    grid-template-columns: repeat(auto-fit,minmax(1fr,700px));
+    grid-template-rows: 1fr;
+    background-image: url(img/stethoscope.png);
+    background-repeat: no-repeat;
+    background-size:40% 70%;
+    background-position: left 14% top 65%;
+    height: 90vh;
+    margin-left: 8rem;
+}
+.left-part{
+    grid-column: 1/2;
+    align-self: center;
+}
+#top , #bottomAngel {
+    height: 1rem;
+}
+.text>h1{
+    font-size: 55px;
+}
+.left-bottom-part>button{
+    padding: .8em 2em;
+    border-radius: 25px;
+    background-color: #22BC7E;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.text>p{
+    margin: 1rem 0;
+}
+.left-bottom-part{
+    gap: 21rem;
+}
+.bottom-right{
+    height: 2em;
+    width: 2em;
+    gap: 1em;
+}
+.bottom-right>#bottomAngel{
+    align-self: flex-start;
+}
+.bottom-right>#mouse{
+    height: 1.3rem;
+    align-self: flex-end;
+    justify-self:end;
+}
+.right-part{
+    justify-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+}
+#greenBox{
+    margin-top: 10rem;
+    margin-right: 1rem;
+    height: 27rem;
+}
+#yellowBox{
+    margin-top: 11.8rem;
+    height: 27rem;
+}
+#doctor{
+    height: 40.5rem;
+}
